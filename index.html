@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Oriental Cars</title>
+
+<link rel="icon" type="image/png" href="logo3.png">
+
+<link rel="stylesheet" href="style.css">
+<meta name="description" content="Oriental Cars - Affordable self drive car rentals in Kerala. Book cars easily with WhatsApp.">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<h2 class="logo">Oriental Cars</h2>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">Cars</a></li>
+<li>
+<a href="https://www.instagram.com/orentincars?igsh=eWJqeDZzZWM0eXFl" target="_blank">
+Contact
+</a>
+</li>
+</ul>
+
+</nav>
+
+</header>
+
+
+<section class="hero">
+
+<div class="slider">
+
+<img src="https://images.unsplash.com/photo-1710225427267-d21102737ad1?q=80&w=764" class="slide active">
+
+<img src="https://images.unsplash.com/photo-1741905358598-5fb74450df9b?fm=jpg&q=60&w=3000" class="slide">
+
+<img src="https://images.unsplash.com/photo-1502877338535-766e1452684a" class="slide">
+
+</div>
+
+
+<div class="hero-content">
+
+<h1>Drive Your Dream Car</h1>
+<p>Affordable Self Drive Rentals</p>
+
+<div class="booking-box">
+
+<select id="location">
+<option value="">Pickup Location</option>
+<option>Malappuram</option>
+<option>Calicut</option>
+<option>Kochi</option>
+<option>Trivandrum</option>
+</select>
+
+<input id="pickupDate" class="date-picker" placeholder="Select Pickup Date">
+
+<select id="days">
+<option value="">Select Days</option>
+<option value="1">1 Day</option>
+<option value="2">2 Days</option>
+<option value="7">7 Days</option>
+<option value="30">30 Days</option>
+</select>
+
+<button onclick="sendWhatsApp()">Book Now</button>
+
+</div>
+
+</div>
+
+</section>
+
+
+<section class="cars">
+
+<h2>Popular Cars</h2>
+
+<div class="car-grid">
+
+
+<div class="car-card">
+
+<img src="https://www.hyundai.com/content/dam/hyundai/in/en/data/vehicle-thumbnail/Thumbnail/creta-suvpc.png">
+
+<h3>Hyundai Creta</h3>
+
+<p>₹2200/day</p>
+
+<button class="book-btn">Book Now</button>
+
+</div>
+
+
+<div class="car-card">
+
+<img src="https://www.rentacarkerala.net/weds/7.jpg">
+
+<h3>Fortuner</h3>
+
+<p>₹4999/day</p>
+
+<button class="book-btn">Book Now</button>
+
+</div>
+
+
+<div class="car-card">
+
+<img src="https://images.hindustantimes.com/auto/img/2022/09/05/1600x900/Toyota_Innova_Crysta_Limited_Edition_1662351501034_1662351501149_1662351501149.png">
+
+<h3>Innova Crysta</h3>
+
+<p>₹3200/day</p>
+
+<button class="book-btn">Book Now</button>
+
+</div>
+
+
+</div>
+
+</section>
+
+
+<footer>
+
+<p>© 2026 Oriental Cars</p>
+
+</footer>
+
+
+<a onclick="openWhatsApp()" class="whatsapp-float">
+Chat
+</a>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
