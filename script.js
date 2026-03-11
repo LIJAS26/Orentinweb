@@ -8,7 +8,7 @@ let days = document.getElementById("days").value;
 
 let phone = "917591955532";
 
-let message = `Hello Oriental Cars,
+let message = `Hello Orentin Cars,
 I want to book a car.
 
 Pickup Location: ${location}
@@ -28,7 +28,7 @@ function openWhatsApp(){
 
 let phone = "917591955532";
 
-let message = `Hello Oriental Cars,
+let message = `Hello Orentin Cars,
 I would like to book a car.
 Please share available cars.`;
 
@@ -52,7 +52,7 @@ let carName = card.querySelector("h3").innerText;
 
 let phone = "917591955532";
 
-let message = `Hello Oriental Cars,
+let message = `Hello Orentin Cars,
 I want to book this car:
 
 Car Name: ${carName}`;
