@@ -71,7 +71,7 @@ window.open(url,"_blank");
 flatpickr("#pickupDate",{
 minDate:"today",
 dateFormat:"d M Y",
-animate:true
+disableMobile: true
 });
 
 
