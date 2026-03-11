@@ -126,13 +126,13 @@ opacity:1;
 
 /* HERO CONTENT */
 .date-picker{
-width:180px;
-padding:12px 14px;
+width:100%;
+padding:14px;
 border:1px solid #ddd;
 border-radius:8px;
 background:#fafafa;
 cursor:pointer;
-font-size:14px;
+font-size:16px;
 transition:0.3s;
 }
 
@@ -296,11 +296,17 @@ box-shadow:0 4px 15px rgba(0,0,0,0.3);
 @media(max-width:768px){
 
 .navbar{
-padding:20px;
+padding:15px 20px;
+flex-direction:column;
+align-items:flex-start;
 }
 
 .navbar ul{
-display:none;
+display:flex;
+gap:15px;
+margin-top:10px;
+}
+
 }
 
 .booking-box{
@@ -315,4 +321,3 @@ grid-template-columns:1fr;
 font-size:32px;
 }
 
-}
