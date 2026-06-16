@@ -569,3 +569,30 @@ footer a:hover {
         font-size: 15px;
     }
 }
+.logo a {
+    text-decoration: none;
+    color: inherit;
+}
+.back-home {
+    text-align: center;
+    margin: 25px 0 40px;
+}
+
+.back-home a {
+    display: inline-block;
+    color: #ff5a00;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 12px 24px;
+    border: 1px solid #ff5a00;
+    border-radius: 50px;
+    transition: 0.3s;
+}
+
+.back-home a:hover {
+    background: #ff5a00;
+    color: white;
+}
+html {
+    scroll-behavior: smooth;
+}
